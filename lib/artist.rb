@@ -15,4 +15,10 @@ class Artist
     song.artist = song 
   end 
   
+  def songs
+    @songs
+  end
+  
+  def self.find_or_create_by_name(name)
+    
 end 
