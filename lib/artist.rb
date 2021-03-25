@@ -18,6 +18,7 @@ class Artist
   
   def save
     @@all << self 
+  end 
   
   def self.find_by_name(artist_name)
     found_artist = self.all.find do |artist|
