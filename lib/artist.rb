@@ -20,6 +20,9 @@ class Artist
   def self.all
     @@all
   end
+  
+  def songs
+    
 
   def self.find_by_name(artist_name)
     found_artist = self.all.find do |artist|
