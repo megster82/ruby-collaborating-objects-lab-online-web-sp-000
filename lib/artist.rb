@@ -16,6 +16,9 @@ class Artist
     @songs << song 
   end 
   
+  def save
+    @@all << self 
+  
   def self.find_by_name(artist_name)
     found_artist = self.all.find do |artist|
       artist.name == artist_name
