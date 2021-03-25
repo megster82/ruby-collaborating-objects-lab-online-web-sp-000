@@ -21,7 +21,7 @@ class Artist
   end 
   
   def songs
-    @@all
+    @songs
   end
   
   def self.find_by_name(artist_name)
